@@ -36,11 +36,11 @@ class App extends Component {
 
   handleNVRight(e) {
     if (e.key == "ArrowRight") {
-      console.log("clicked ->");
+      //   console.log("clicked ->");
       let len = this.state.posi + 5;
       this.setState({ posi: len });
       this.setState({ ballPosition: { left: len + "px" } });
-      console.log(len + 5);
+      console.log(len);
     }
   }
 
