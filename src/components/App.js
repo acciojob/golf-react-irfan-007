@@ -35,7 +35,7 @@ class App extends Component {
   }
 
   handleNVRight(e) {
-    if (e.key == "ArrowRight") {
+    if (e.key == "ArrowRight" || e.keyCode == 39) {
       //   console.log("clicked ->");
       let len = this.state.posi + 5;
       this.setState({ posi: len });
